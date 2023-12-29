@@ -8,14 +8,15 @@ ECTLO is pure LiDAR odometry to tackle the challenges in Solid State LiDAR, incl
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/y3ZQZq_PaxA/0.jpg)](http://www.youtube.com/watch?v=y3ZQZq_PaxA)
 
 ## Related paper
-- Zheng, Xin and Jianke Zhu. “Effective Solid State LiDAR Odometry Using Continuous-time Filter Registration.” [arxiv](https://arxiv.org/abs/2206.08517)
+- Zheng, Xin and Jianke Zhu. “ECTLO: Effective Continuous-Time Odometry Using Range Image for LiDAR with Small FoV.” [arxiv](https://arxiv.org/abs/2206.08517), [IEEE](https://ieeexplore.ieee.org/abstract/document/10341592)
 ```
-@article{Zheng2022EffectiveSS,
-  title={Effective Solid State LiDAR Odometry Using Continuous-time Filter Registration},
-  author={Xin Zheng and Jianke Zhu},
-  journal={ArXiv},
-  year={2022},
-  volume={abs/2206.08517}
+@inproceedings{zheng2023ectlo,
+  title={ECTLO: Effective Continuous-Time Odometry Using Range Image for LiDAR with Small FoV},
+  author={Zheng, Xin and Zhu, Jianke},
+  booktitle={2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={9102--9109},
+  year={2023},
+  organization={IEEE}
 }
 ```
 - Data structure is based on our previous work ELO. 
